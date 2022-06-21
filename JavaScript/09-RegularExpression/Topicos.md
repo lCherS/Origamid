@@ -160,3 +160,11 @@ const regexp = /\w+/gi;
 const regexObj1 = new RegExp('\\w+', 'i'); 
 const regexObj2 = new RegExp(/\w+/, 'i'); 
 ```
+
+
+### Selecionar Tag HTML
+
+```javascript
+const regexp = /(?<=<\/?)\w+/gi;
+
+```
